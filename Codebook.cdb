@@ -244,3 +244,325 @@ ELSE IF R(106.)=1 THEN DO;
    ELSE MAR=3;
 END;
 R(2175.)=MAR;
+
+--------------------------------------------------------------------------------
+R00007.00    [FAM-2A]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             COUNTRY OF BIRTH
+ 
+ORIGINAL QUESTION NAME: S01Q02A
+ 
+IN WHAT COUNTRY WERE YOU BORN?
+ 
+UNIVERSE: All
+ 
+   11812       1 IN THE US
+     873       2 IN OTHER COUNTRY
+  -------
+   12685
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+--------------------------------------------------------------------------------
+R00687.10    [TENURE1]                                      Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             TOTAL TENURE (IN WEEKS) WITH EMPLOYER AS OF INTERVIEW DATE JOB #01
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL WEEKS
+ 
+UNIVERSE: R has employer
+ 
+    3391           1 TO 49
+    1576          50 TO 99
+      87         100 TO 149
+      37         150 TO 199
+      17         200 TO 249
+       7         250 TO 299
+       1         300 TO 349
+       1         350 TO 399
+       1         400 TO 449
+       1         450 TO 499
+  -------
+    5119
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      79
+TOTAL =========>    5198   VALID SKIP(-4)    7488     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:            479        Mean:               37.22
+
+--------------------------------------------------------------------------------
+R65913.00    [INDALL-EMP.01]                                Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF BUSINESS OR INDUSTRY (CENSUS 3 DIGIT, 70 CODES) (ALL) JOB 
+             #01
+ 
+COMMENT: 1970 CENSUS CODE FOR BUSINESS OR INDUSTRY - EMPLOYER
+SEE ATTACHMENT 3, INDUSTRY AND OCCUPATION CODES
+
+
+
+INCLUDES DATA FOR ALL R'S REPORTING EMPLOYER
+ 
+     157          17 TO 28: 017-028 AGRICULTURE,FORESTRY AND FISHERIES
+      28          47 TO 57: 047-057 MINING
+     552          67 TO 77: 067-077 CONSTRUCTION
+    1178         107 TO 398: 107-398 MANUFACTURING
+     589         407 TO 479: 407-479 TRANSPORTATION,COMMUNICATION,PUBLIC 
+                          UTILITIES
+    1124         507 TO 698: 507-698 WHOLESALE AND RETAIL TRADE
+     413         707 TO 718: 707-718 FINANCE,INSURANCE AND REAL ESTATE
+     610         727 TO 759: 727-759 BUSINESS AND REPAIR SERVICES
+     259         769 TO 798: 769-798 PERSONAL SERVICES
+     124         807 TO 809: 807-809 ENTERTAINMENT AND RECREATION SERVICES
+    1681         828 TO 897: 828-897 PROFESSIONAL AND RELATED SERVICES
+     489         907 TO 937: 907-937 PUBLIC ADMINISTRATION
+  -------
+    7237
+ 
+Refusal(-1)            0
+Don't Know(-2)         4
+TOTAL =========>    7241   VALID SKIP(-4)     792     NON-INTERVIEW(-5)    4653
+ 
+Min:              0        Max:            999        Mean:              587.26
+ 
+Lead In: R65847.00[Default] R65852.00[Default] R65894.00[Default] 
+         R65908.00[Default]  R65862.00[1:1] R65890.00[1:1]
+Default Next Question: R65918.00
+--------------------------------------------------------------------------------
+R65918.00    [OCCALL-EMP.01]                                Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             OCCUPATION (CENSUS 3 DIGIT, 70 CODES) (ALL) JOB #01
+ 
+COMMENT: 1970 CENSUS CODE FOR OCCUPATION - EMPLOYER
+SEE ATTACHMENT 3, INDUSTRY AND OCCUPATION CODES
+
+
+
+INCLUDES DATA FOR ALL R'S REPORTING EMPLOYER
+ 
+       4           0: 000     NONE
+    1383           1 TO 195: 001-195 PROFESSIONAL,TECHNICAL AND KINDRED
+    1159         201 TO 245: 201-245 MANAGERS,OFFICIALS AND PROPRIETORS
+     310         260 TO 285: 260-285 SALES WORKERS
+    1099         301 TO 395: 301-395 CLERICAL AND KINDRED
+     861         401 TO 575: 401-575 CRAFTSMEN,FOREMEN AND KINDRED
+      11         580 TO 590: 580-590 ARMED FORCES
+     900         601 TO 715: 601-715 OPERATIVES AND KINDRED
+     386         740 TO 785: 740-785 LABORERS, EXCEPT FARM
+      29         801 TO 802: 801-802 FARMERS AND FARM MANAGERS
+      33         821 TO 824: 821-824 FARM LABORERS AND FOREMAN
+    1005         901 TO 965: 901-965 SERVICE WORKERS, EXCEPT PRIVATE HOUSEHOLD
+      56         980 TO 984: 980-984 PRIVATE HOUSEHOLD
+       0         990
+       0         995: 995 OCCUPATION NOT REPORTED
+  -------
+    7241
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7241   VALID SKIP(-4)     792     NON-INTERVIEW(-5)    4653
+ 
+Min:              0        Max:            999        Mean:              442.97
+
+--------------------------------------------------------------------------------
+T12975.00    [INDALL-EMP.01]                                Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             TYPE OF BUSINESS OR INDUSTRY (CENSUS 4 DIGIT, 00 CODES) (ALL) JOB 
+             #01
+ 
+COMMENT: 2000 CENSUS CODE FOR BUSINESS OR INDUSTRY - EMPLOYER (UPDATED IN 2003)
+SEE ATTACHMENT 3, INDUSTRY AND OCCUPATION CODES
+ 
+INCLUDES DATA FOR ALL R'S REPORTING EMPLOYER
+ 
+      64         170 TO 290: Agriculture, Forestry, Fishing, and Hunting
+      29         370 TO 490: Mining
+      71         570 TO 690: Utilities
+     498         770: Construction
+     801        1070 TO 3990: Manufacturing
+     193        4070 TO 4590: Wholesale Trade
+     495        4670 TO 5790: Retail Trade
+     392        6070 TO 6390: Transportation and Warehousing
+     159        6470 TO 6780: Information
+     285        6870 TO 6990: Finance and Insurance
+     112        7070 TO 7190: Real Estate and Rental and Leasing
+     298        7270 TO 7490: Professional, Scientific, and Technical Services
+     322        7570 TO 7790: Management, Administrative and Support, and Waste 
+                          Management Services
+     588        7860 TO 7890: Educational Services
+     911        7970 TO 8470: Health Care and Social Assistance
+      84        8560 TO 8590: Arts, Entertainment, and Recreation
+     281        8660 TO 8690: Accomodations and Food Services
+     288        8770 TO 9290: Other Services (Except Public Administration)
+     436        9370 TO 9870: Public Administration and Active Duty Military
+       6        9890: Armed Forces (for CPS)
+      50        9990: Uncodeable
+  -------
+    6363
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6363   VALID SKIP(-4)    1394     NON-INTERVIEW(-5)    4929
+ 
+Min:            170        Max:           9990        Mean:             6202.98
+ 
+Lead In: None.
+Default Next Question: T12980.00
+--------------------------------------------------------------------------------
+T12980.00    [OCCALL-EMP.01]                                Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             OCCUPATION (CENSUS 4 DIGIT, 00 CODES) (ALL) JOB #01
+ 
+COMMENT: 2000 CENSUS CODE FOR OCCUPATION - EMPLOYER (UPDATED IN 2003)
+SEE ATTACHMENT 3, INDUSTRY AND OCCUPATION CODES
+ 
+INCLUDES DATA FOR ALL R'S REPORTING EMPLOYER
+ 
+     762          10 TO 430: Executive, Administrative and Managerial 
+                          Occupations
+     275         500 TO 950: Management Related Occupations
+     143        1000 TO 1240: Mathematical and Computer Scientists
+      99        1300 TO 1560: Engineers, Architects, Surveyers, Engineering and 
+                          Related Technicians
+      15        1600 TO 1760: Physical Scientists
+      14        1800 TO 1860: Social Scientists and Related Workers
+      16        1900 TO 1960: Life, Physical and Social Science Technicians
+     123        2000 TO 2060: Counselors, Sociala and Religious Workers
+      44        2100 TO 2150: Lawyers, Judges and Legal Support Workers
+     292        2200 TO 2340: Teachers
+      95        2400 TO 2550: Education, Training and Library Workers
+      52        2600 TO 2760: Entertainers and Performers, Sports and Related 
+                          Workers
+      33        2800 TO 2960: Media and Communications Workers
+     156        3000 TO 3260: Health Diagnosing and Treating Practitioners
+     287        3300 TO 3650: Health Care Technical and Support Occupations
+     168        3700 TO 3950: Protective Service Occupations
+     264        4000 TO 4160: Food Preparation and Serving Related Occupations
+     280        4200 TO 4250: Cleaning and Building Service Occupations
+      20        4300 TO 4430: Entertainment Attendants and Related Workers
+     177        4500 TO 4650: Personal Care and Service Workers
+     488        4700 TO 4960: Sales and Related Workers
+     942        5000 TO 5930: Office and Administrative Support Workers
+      33        6000 TO 6130: Farming, Fishing and Forestry Occupations
+     404        6200 TO 6940: Construction Trade and Extraction Workers
+     257        7000 TO 7620: Installation, Maintenance and Repairs Workers
+     142        7700 TO 7750: Production and Operating Workers
+      15        7800 TO 7850: Food Preparation Occupations
+     365        7900 TO 8960: Setters, Operators and Tenders
+     463        9000 TO 9750: Transportation and Material Moving Workers
+       7        9840: Armed Forces
+      12        9990: Uncodeable
+  -------
+    6443
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6443   VALID SKIP(-4)    1314     NON-INTERVIEW(-5)    4929
+ 
+Min:             10        Max:           9990        Mean:             4418.36
+
+--------------------------------------------------------------------------------
+R02167.01    [HGCREV79]                                     Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+ORIGINAL QUESTION NAME: HGCREV79
+ 
+UNIVERSE: Entire Sample
+ 
+COMMENT: Highest Grade Completed
+ 
+      11       0 NONE
+       3       1 1ST GRADE
+       1       2 2ND GRADE
+      18       3 3RD GRADE
+      21       4 4TH GRADE
+      31       5 5TH GRADE
+     123       6 6TH GRADE
+     514       7 7TH GRADE
+    1694       8 8TH GRADE
+    1850       9 9TH GRADE
+    1853      10 10TH GRADE
+    1493      11 11TH GRADE
+    3598      12 12TH GRADE
+     720      13 1ST YR COL
+     463      14 2ND YR COL
+     257      15 3RD YR COL
+      28      16 4TH YR COL
+       1      17 5TH YR COL
+       1      18 6TH YR COL
+       0      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   12680
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       6
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+
+--------------------------------------------------------------------------------
+R04064.01    [HGCREV80]                                     Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED AS OF MAY 1 SURVEY YEAR (REVISED)
+ 
+ORIGINAL QUESTION NAME: HGCREV80
+ 
+UNIVERSE: All
+ 
+COMMENT: Highest Grade Completed
+ 
+       2       0 NONE
+       0      93 PRE-KINDERGARTEN
+       0      94 KINDERGARTEN
+       3       1 1ST GRADE
+       1       2 2ND GRADE
+      17       3 3RD GRADE
+      14       4 4TH GRADE
+      20       5 5TH GRADE
+      67       6 6TH GRADE
+     159       7 7TH GRADE
+     687       8 8TH GRADE
+    1778       9 9TH GRADE
+    1763      10 10TH GRADE
+    1624      11 11TH GRADE
+    4068      12 12TH GRADE
+     848      13 1ST YR COL
+     554      14 2ND YR COL
+     325      15 3RD YR COL
+     207      16 4TH YR COL
+       1      17 5TH YR COL
+       1      18 6TH YR COL
+       1      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   12140
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
