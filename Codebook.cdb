@@ -340,43 +340,6 @@ Min:              0        Max:            999        Mean:              587.26
 Lead In: R65847.00[Default] R65852.00[Default] R65894.00[Default] 
          R65908.00[Default]  R65862.00[1:1] R65890.00[1:1]
 Default Next Question: R65918.00
---------------------------------------------------------------------------------
-R65918.00    [OCCALL-EMP.01]                                Survey Year: 2000
-  PRIMARY VARIABLE
-
- 
-             OCCUPATION (CENSUS 3 DIGIT, 70 CODES) (ALL) JOB #01
- 
-COMMENT: 1970 CENSUS CODE FOR OCCUPATION - EMPLOYER
-SEE ATTACHMENT 3, INDUSTRY AND OCCUPATION CODES
-
-
-
-INCLUDES DATA FOR ALL R'S REPORTING EMPLOYER
- 
-       4           0: 000     NONE
-    1383           1 TO 195: 001-195 PROFESSIONAL,TECHNICAL AND KINDRED
-    1159         201 TO 245: 201-245 MANAGERS,OFFICIALS AND PROPRIETORS
-     310         260 TO 285: 260-285 SALES WORKERS
-    1099         301 TO 395: 301-395 CLERICAL AND KINDRED
-     861         401 TO 575: 401-575 CRAFTSMEN,FOREMEN AND KINDRED
-      11         580 TO 590: 580-590 ARMED FORCES
-     900         601 TO 715: 601-715 OPERATIVES AND KINDRED
-     386         740 TO 785: 740-785 LABORERS, EXCEPT FARM
-      29         801 TO 802: 801-802 FARMERS AND FARM MANAGERS
-      33         821 TO 824: 821-824 FARM LABORERS AND FOREMAN
-    1005         901 TO 965: 901-965 SERVICE WORKERS, EXCEPT PRIVATE HOUSEHOLD
-      56         980 TO 984: 980-984 PRIVATE HOUSEHOLD
-       0         990
-       0         995: 995 OCCUPATION NOT REPORTED
-  -------
-    7241
- 
-Refusal(-1)            0
-Don't Know(-2)         0
-TOTAL =========>    7241   VALID SKIP(-4)     792     NON-INTERVIEW(-5)    4653
- 
-Min:              0        Max:            999        Mean:              442.97
 
 --------------------------------------------------------------------------------
 T12975.00    [INDALL-EMP.01]                                Survey Year: 2008
@@ -424,6 +387,45 @@ Min:            170        Max:           9990        Mean:             6202.98
  
 Lead In: None.
 Default Next Question: T12980.00
+
+--------------------------------------------------------------------------------
+R65918.00    [OCCALL-EMP.01]                                Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             OCCUPATION (CENSUS 3 DIGIT, 70 CODES) (ALL) JOB #01
+ 
+COMMENT: 1970 CENSUS CODE FOR OCCUPATION - EMPLOYER
+SEE ATTACHMENT 3, INDUSTRY AND OCCUPATION CODES
+
+
+
+INCLUDES DATA FOR ALL R'S REPORTING EMPLOYER
+ 
+       4           0: 000     NONE
+    1383           1 TO 195: 001-195 PROFESSIONAL,TECHNICAL AND KINDRED
+    1159         201 TO 245: 201-245 MANAGERS,OFFICIALS AND PROPRIETORS
+     310         260 TO 285: 260-285 SALES WORKERS
+    1099         301 TO 395: 301-395 CLERICAL AND KINDRED
+     861         401 TO 575: 401-575 CRAFTSMEN,FOREMEN AND KINDRED
+      11         580 TO 590: 580-590 ARMED FORCES
+     900         601 TO 715: 601-715 OPERATIVES AND KINDRED
+     386         740 TO 785: 740-785 LABORERS, EXCEPT FARM
+      29         801 TO 802: 801-802 FARMERS AND FARM MANAGERS
+      33         821 TO 824: 821-824 FARM LABORERS AND FOREMAN
+    1005         901 TO 965: 901-965 SERVICE WORKERS, EXCEPT PRIVATE HOUSEHOLD
+      56         980 TO 984: 980-984 PRIVATE HOUSEHOLD
+       0         990
+       0         995: 995 OCCUPATION NOT REPORTED
+  -------
+    7241
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7241   VALID SKIP(-4)     792     NON-INTERVIEW(-5)    4653
+ 
+Min:              0        Max:            999        Mean:              442.97
+
 --------------------------------------------------------------------------------
 T12980.00    [OCCALL-EMP.01]                                Survey Year: 2008
   PRIMARY VARIABLE
